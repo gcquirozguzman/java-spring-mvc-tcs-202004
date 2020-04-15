@@ -4,45 +4,50 @@
 _Clase: Preparando el Ambiente de Trabajo._
 
 ```
-📢 Descargar e instalar OpenJDK 11.0.2 (build 11.0.2+9)
-📢 Crear o editar la variable de entorno para esta versión.
-    Nombre: JAVA_HOME
-    Valor: C:\Program Files\Java\openjdk-11.0.2
+📢 A continuación se instalará un complemento para Spring.
+📢 Instalar Spring Tools 3 para la creación del proyecto base.
 ```
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/PADTR00001_2.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/INSTC00001_1.png)
 
 ```
-📢 Comprobar que la versión ha cambiado.
+📢 Ingresar en la casilla “Spring Tool Suite” y seleccionar la opción indicada.
 ```
-
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/PADTR00001_3.png)
-
-```
-📢 Descargar la versión de Eclipse
-    https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2019-12/R/eclipse-jee-2019-12-R-win32-x86_64.zip&mirror_id=576
-📢 Descargar la versión de JBoss EAP 7.2 del centro de descargas
-    https://developers.redhat.com/products/eap/download
-📢 Se puede descargar directarmente JBoss EAP 7.2 del siguiente link
-    https://developers.redhat.com/download-manager/file/jboss-eap-7.2.0.zip
-📢 Ahora se creará el ambiente de trabajo.
-📢 Crearemos una carpeta en donde colocaremos nuestro ambiente de trabajo. 
-📢 En esa carpeta agregaremos 2 carpetas nuevas por un tema de orden.
-```
-
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/PADTR00001_4.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/INSTC00001_2.png)
 
 ```
-📢 Seleccionaremos la ruta de la carpeta Fuentes para colocarlo cuando iniciemos el IDE Eclipse.
-📢 Descomprimir el “JBoss EAP 7.2” que descargamos en nuestra carpeta “Servidor”. Esto para poder agregarlo más adelante.
+📢 Ahora se instalará los complementos para que el IDE reconozca a las versiones del servidor que queremos.
 ```
-
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/PADTR00001_5.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/INSTC00001_3.png)
 
 ```
-📢 Inicio eclipse con ruta de la carpeta Fuentes
+📢 Ingresamos en Work With: http://download.jboss.org/jbosstools/updates/webtools/photon/
+📢 Luego damos check en la siguiente opción. Para que reconozca el IDE.
 ```
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/INSTC00001_4.png)
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/PADTR00001_6.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/INSTC00001_5.png)
+
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/INSTC00001_6.png)
+
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/INSTC00001_7.png)
+
+```
+📢 Esperamos a que termine y pide reiniciar.
+```
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/INSTC00001_8.png)
+
+```
+📢 Podemos ver si se ha instalado correctamente entrando a la pestaña “Servers”. Luego seleccionamos el link en azul.
+```
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/INSTC00001_9.png)
+
+```
+📢 En la sección de “Red Hat JBoss Middleware” podemos ver que se han instalado correctamente lo que necesitamos. 
+📢 Por ahora salimos de esta opción. La agregaremos más adelante.
+
+```
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/INSTC00001_10.png)
+
 
 ## Autores ✒️
 
