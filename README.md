@@ -4,34 +4,154 @@
 _Clase: Configuracion Proyecto con Maven._
 
 ```
-📢 Seleccionamos crear un nuevo proyecto.
+📢 .
 ```
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CRDPR00001_1.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CPCMV00001_.png)
 
 ```
-📢 Seleccionamos la siguiente opción.
+📢 .
 ```
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CRDPR00001_2.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CPCMV00001_.png)
 
 ```
-📢 Colocamos un nombre al proyecto y que template usaremos para que cree el proyecto.
+📢 .
 ```
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CRDPR00001_7.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CPCMV00001_.png)
 
 ```
-📢 Aceptamos la descarga del template.
+📢 .
 ```
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CRDPR00001_4.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CPCMV00001_.png)
 
 ```
-📢 Indicaré a continuación donde estará el paquete principal de nuestro proyecto.
+📢 .
 ```
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CRDPR00001_5.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CPCMV00001_.png)
 
 ```
-📢 Como paso final podemos ver que nuestro proyecto ya ha sido construido.
+📢 .
 ```
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CRDPR00001_8.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CPCMV00001_.png)
+
+```
+📢 .
+```
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CPCMV00001_.png)
+
+```
+📢 .
+```
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CPCMV00001_.png)
+
+```
+📢 .
+```
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CPCMV00001_.png)
+
+```
+📢 .
+```
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CPCMV00001_.png)
+
+```
+📢 .
+```
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CPCMV00001_.png)
+
+```
+📢 .
+```
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CPCMV00001_.png)
+
+```
+📢 .
+```
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CPCMV00001_.png)
+
+```
+📢 .
+```
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CPCMV00001_.png)
+
+```
+📢 .
+```
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CPCMV00001_.png)
+
+```
+📢 .
+```
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CPCMV00001_.png)
+
+```
+📢 .
+```
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CPCMV00001_.png)
+
+```
+📢 .
+```
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CPCMV00001_.png)
+
+```
+📢 .
+```
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CPCMV00001_.png)
+
+```
+📢 .
+```
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CPCMV00001_.png)
+
+```
+📢 .
+```
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CPCMV00001_.png)
+
+```
+📢 .
+```
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CPCMV00001_.png)
+
+```
+📢 .
+```
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CPCMV00001_.png)
+
+```
+📢 .
+```
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CPCMV00001_.png)
+
+```
+📢 .
+```
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CPCMV00001_.png)
+
+```
+📢 .
+```
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CPCMV00001_.png)
+
+```
+📢 .
+```
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CPCMV00001_.png)
+
+```
+📢 .
+```
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CPCMV00001_.png)
+
+```
+📢 .
+```
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CPCMV00001_.png)
+
+```
+📢 .
+```
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CPCMV00001_.png)
 
 ## Autores ✒️
 
