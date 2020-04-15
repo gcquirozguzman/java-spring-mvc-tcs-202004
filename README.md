@@ -22,21 +22,21 @@ _[9) Estructura del Proyecto](https://github.com/gcquirozguzman/java-spring-mvc-
 
 _[10) Model](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/MODEL00001)_ 
 
-_[10) Dao](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/DAOEJ00001)_ 
+_[11) Dao](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/DAOEJ00001)_ 
 
-_[11) Service](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/SERVC00001)_ 
+_[12) Service](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/SERVC00001)_ 
 
-_[12) Enum y Utilitario](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/ENUTL00001)_ 
+_[13) Enum y Utilitario](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/ENUTL00001)_ 
 
-_[13) Controller](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/CONTR00001)_ 
+_[14) Controller](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/CONTR00001)_ 
 
-_[14) RestController](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/RETCT00001)_ 
+_[15) RestController](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/RETCT00001)_ 
 
-_[15) Agregando Vistas](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/AGVST00001)_ 
+_[16) Agregando Vistas](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/AGVST00001)_ 
 
-_[16) Probando Servicios](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/PRSER00001)_ 
+_[17) Probando Servicios](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/PRSER00001)_ 
 
-_[17) JUnit](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/JUNIT00001)_ 
+_[18) JUnit](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/JUNIT00001)_ 
 
 ## Recomendaciones 😊
 
