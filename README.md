@@ -12,10 +12,10 @@ _Este taller tiene parte teórica y práctica, las cuales son necesarias para co
 
 _En este taller usaremos las siguientes herramientas. En las clases detallaremos como instalarlas y configurarlas._
 
-🔧 [JDK 11.0.2]
+🔧 [OpenJDK 11.0.2]
 ```
-📢 Acceder a la página de descarga: https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html
-📢 Ir a la sección Java SE Development Kit 11.0.2
+📢 Acceder a la página de descarga: https://jdk.java.net/archive/
+📢 Ir a la sección 11.0.2 (build 11.0.2+9)
 📢 Descargar la versión Windows x86	o Windows x64.
 📢 Instalar
 ```
