@@ -9,7 +9,7 @@ _Clase: Configuracion Proyecto con Maven._
 📢 Cuando necesitamos ver la versión de una dependencia la podemos ver en la parte superior.
 ```
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/AGRDP00001_1.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/AGRDP00001_3.png)
 
 ```
 📢 El archivo completo lo pueden encontrar aquí.
