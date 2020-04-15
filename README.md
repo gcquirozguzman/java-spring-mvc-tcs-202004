@@ -23,6 +23,7 @@ _Clase: Service._
 ```
 📢 Ahora implementaremos las clases "EmpleadoServiceImpl" e "IngresosServiceImpl".
 📢 Esto solo consiste en llamar a los métodos de la clase Dao.
+📢 No olvidar agregar la anotación @Component estas clases. 
 ```
 
 ![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/SERVC00001_4.png)
