@@ -4,6 +4,10 @@
 
 _[1) Preparando el Ambiente de Trabajo.](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/PADTR00001)_ 
 
+_[2) Instalando Complementos en IDE.](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/INSTC00001)_ 
+
+_[3) Creando Proyecto.](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/CRDPR00001)_ 
+
 ## Recomendaciones 😊
 
 _Este taller tiene parte teórica y práctica, las cuales son necesarias para comprender en su totalidad los temas._
