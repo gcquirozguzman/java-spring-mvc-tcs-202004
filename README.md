@@ -18,7 +18,9 @@ _[7) Modificando libretas de configuración de Spring](https://github.com/gcquir
 
 _[8) Agregando Properties y Scripts](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/APRSC00001)_ 
 
-_[9) Model](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/MODEL00001)_ 
+_[9) Estructura del Proyecto](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/ETRPR00001)_ 
+
+_[10) Model](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/MODEL00001)_ 
 
 _[10) Dao](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/DAOEJ00001)_ 
 
