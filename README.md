@@ -1,106 +1,63 @@
 # Taller String MVC                                                                       
 ### 📥 [Página Anterior](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/INSTC00001)          🗃️ [Página principal](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004)          📤 [Página Siguiente](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/XXXXX00001)
 
-_Clase: Agregando Servidor al Proyecto._
-
-#### ¿Qué es un servidor de aplicaciones?
+_Clase: Modificando libretas de configuración de Spring._
 
 ```
-📢 Un servidor de aplicaciones es una plataforma de middleware para el desarrollo y despliegue de software basado en componentes.
+📢 A continuación veremos los como configurar el arranque del aplicativo.
 ```
 
-#### ¿Qué es JBoss?
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/MLCSP00001_1.png)
 
 ```
-📢 Es un proyecto de código abierto basado en J2EE e implementado al 100% en Java.
+📢 El archivo "web.xml" define asignaciones entre rutas URL y los servlets que manejan solicitudes con esas rutas.
+📢 Se ha creado una carpeta "spring" donde colocaremos lo que respecta a spring que son:
+  servlet-context.xml
+  root-context.xml
 ```
 
-#### ¿Cómo usarlo?
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/MLCSP00001_2.png)
 
 ```
-📢 Volvemos a la pestaña “Servers” y seleccionamos el link.
+📢 En "root-context.xml" no relizaremos ningún cambio por ahora.
 ```
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/ASVPR00001_1.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/MLCSP00001_3.png)
 
 ```
-📢 Seleccionamos la versión de JBoss que queremos usar.
+📢 Esta en la estructura del "servlet-context.xml".
 ```
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/ASVPR00001_2.png)
-
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/ASVPR00001_3.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/MLCSP00001_4.png)
 
 ```
-📢 Ahora acá seleccionamos la carpeta donde está nuestro JBoss.
+📢 Si vemos a detalle podemos revisar que se estan mapeando varios recursos para que el aplicativo los consuma.
+  Se mapea los recursos estáticos (resources).
+  Se mapea donde estaran los archivos en donde retornará el controlador (jsp) y la carpeta.
+  Se mapea la carpeta base del proyecto (com.tcs.app).
 ```
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/ASVPR00001_4.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/MLCSP00001_5.png)
 
 ```
-📢 Esta carpeta es la que creamos al inicio y en donde descomprimimos el archivo.
+📢 Agregaremos más configuraciones, se detalle en el documento cada una.
+  
 ```
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/ASVPR00001_5.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/MLCSP00001_6.png)
 
 ```
-📢 Antes de finalizar seleccionar la versión de Java que se usará en el servidor. Luego pasamos al siguiente paso.
+📢 Luego que agreguemos las anteriores líneas. Nos mostrará un error si no agregamos la etiqueta correspondiente.
+📢 Por ejemplo, me indica que no reconoce que es "tx".
 ```
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/ASVPR00001_6.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/MLCSP00001_7.png)
 
 ```
-📢 Lo siguiente nos muestra una lista de proyectos a desplegar. Seleccionamos el “ProyectoSpringMVC” y lo agregamos a la parte derecha.
+📢 La agregaré en la cabecera.
 ```
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/ASVPR00001_7.png)
-
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/ASVPR00001_8.png)
-
-```
-📢 Ahora iniciaremos nuestro servidor. Clic derecho en el servidor de la pestaña “Servers”.
-
-```
-
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/ASVPR00001_9.png)
-
-```
-📢 Acá tenemos 2 opciones de como iniciarlo. 
-📢 “Start” y “Debug”. 
-📢 Ambos levantan el aplicativo. 
-📢 Pero Debug nos ayuda a ir darle una revisión a detalle de lo que ocurre en el código a medida el aplicativo sigue su flujo normal.
-📢 Muy útil para detectar origen de algún error.
-📢 Por ahora la iniciare como “Start”.
-```
-
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/ASVPR00001_10.png)
-
-```
-📢 Esperamos a que se termine el despliegue.
-```
-
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/ASVPR00001_11.png)
-```
-📢 Ingresamos a la ruta donde ha sido desplegada. 
-  IP + PUERTO + WARNAME
-📢 En nuestro caso es el siguiente:
-  http://localhost:8080/ProyectoSpringMVC/
-📢 Ya podemos ver nuestro aplicativo por defecto.
-```
-
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/ASVPR00001_12.png)
-
-```
-📢 Si queremos cambiar el puerto usado vamos al archivo “standalone.xml”.
-```
-
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/ASVPR00001_13.png)
-
-```
-📢 Ahí podemos cambiar el puerto que está por defecto en 8080 por el que queramos.
-```
-
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/ASVPR00001_14.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/MLCSP00001_8.png)
 
 ## Autores ✒️
 
