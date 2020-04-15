@@ -4,16 +4,22 @@
 _Clase: Estructura del Proyecto._
 
 ```
-📢 Cambiaremos la vista para que se puedan ver los paquetes de forma ordenada..
+📢 Crearemos 2 clases donde colocaremos nuestros objetos.
 ```
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/ETRPR00001_1.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/MODEL00001_1.png)
 
 ```
-📢 Para este proyecto trabajaremos con la siguiente estructura.
+📢 Crearé el objeto "Empleado".
 ```
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/ETRPR00001_2.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/MODEL00001_2.png)
+
+```
+📢 Crearé el objeto "Ingresos".
+```
+
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/MODEL00001_3.png)
 
 ## Autores ✒️
 
