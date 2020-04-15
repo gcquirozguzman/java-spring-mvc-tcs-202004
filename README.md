@@ -42,6 +42,8 @@ _Clase: Preparando el Ambiente de Trabajo._
 📢 Inicio eclipse con ruta de la carpeta Fuentes
 ```
 
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/PADTR00001_6.png)
+
 ## Autores ✒️
 
 * **Gian Carlo Quiroz Guzmán** - *Proyecto Demo* - [gcquirozguzman](https://github.com/gcquirozguzman)
