@@ -16,7 +16,7 @@ _Clase: Creando Proyecto._
 ```
 📢 Colocamos un nombre al proyecto y que template usaremos para que cree el proyecto.
 ```
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CRDPR00001_3.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CRDPR00001_7.png)
 
 ```
 📢 Aceptamos la descarga del template.
@@ -31,7 +31,7 @@ _Clase: Creando Proyecto._
 ```
 📢 Como paso final podemos ver que nuestro proyecto ya ha sido construido.
 ```
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CRDPR00001_6.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CRDPR00001_8.png)
 
 ## Autores ✒️
 
