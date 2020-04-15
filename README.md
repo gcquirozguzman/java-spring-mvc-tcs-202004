@@ -7,7 +7,7 @@ _Clase: Estructura del Proyecto._
 📢 Cambiaremos la vista para que se puedan ver los paquetes de forma ordenada..
 ```
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/ETRPR00001_1.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/ETRPR00001_3.png)
 
 ```
 📢 Para este proyecto trabajaremos con la siguiente estructura.
