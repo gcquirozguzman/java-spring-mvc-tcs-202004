@@ -41,7 +41,7 @@ _Clase: Modificando libretas de configuración de Spring._
 
 ```
 📢 Agregaremos más configuraciones, se detalle en el documento cada una.
-  
+  https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/MLCSP00001/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml
 ```
 
 ![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/MLCSP00001_6.png)
