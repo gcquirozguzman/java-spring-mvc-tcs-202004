@@ -10,6 +10,8 @@ _[3) Creando Proyecto.](https://github.com/gcquirozguzman/java-spring-mvc-tcs-20
 
 _[4) Configuracion Proyecto con Maven.](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/CPCMV00001)_ 
 
+_[5) Agregando Dependencias.](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/AGRDP00001)_ 
+
 ## Recomendaciones 😊
 
 _Este taller tiene parte teórica y práctica, las cuales son necesarias para comprender en su totalidad los temas._
