@@ -5,6 +5,7 @@ _Clase: Agregando Properties y Scripts._
 
 ```
 📢 Agregaré a el proyecto los archivos sql y properties.
+📢 Recordar que estos archivos fueron referenciados en "servlet-context.xml".
 ```
 
 ![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/APRSC00001_1.png)
