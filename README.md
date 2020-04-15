@@ -30,6 +30,7 @@ _Clase: Dao._
 📢 Por último, implementaremos las interfaces que creamos en las clases "EmpleadoDaoImpl" e "IngresosDaoImpl".
 📢 Primero haré lo referente a "EmpleadoDaoImpl".
 📢 Lo primero que estamos incorporando a nuestra clase Java son los query que declaramos en "query.properties".
+📢 No olvidar agregar la anotación @Component estas clases.
 ```
 
 ![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/DAOEJ00001_6.png)
