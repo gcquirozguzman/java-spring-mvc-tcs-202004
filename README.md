@@ -12,6 +12,32 @@ _[4) Configuracion Proyecto con Maven.](https://github.com/gcquirozguzman/java-s
 
 _[5) Agregando Dependencias.](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/AGRDP00001)_ 
 
+_[6) Agregando Dependencias.](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/AGRDP00001)_ 
+
+_[7) Agregando Servidor al Proyecto.](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/ASVPR00001)_ 
+
+_[8) Modificando libretas de configuración de Spring](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/MLCSP00001)_ 
+
+_[9) Agregando Properties y Scripts](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/MLCSP00001)_ 
+
+_[10) Model](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/MLCSP00001)_ 
+
+_[11) Dao](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/MLCSP00001)_ 
+
+_[12) Service](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/MLCSP00001)_ 
+
+_[13) Enum y Utilitario](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/MLCSP00001)_ 
+
+_[14) Controller](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/MLCSP00001)_ 
+
+_[15) RestController](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/MLCSP00001)_ 
+
+_[16) Agregando Vistas](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/MLCSP00001)_ 
+
+_[17) Probando Servicios](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/MLCSP00001)_ 
+
+_[18) JUnit](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/MLCSP00001)_ 
+
 ## Recomendaciones 😊
 
 _Este taller tiene parte teórica y práctica, las cuales son necesarias para comprender en su totalidad los temas._
