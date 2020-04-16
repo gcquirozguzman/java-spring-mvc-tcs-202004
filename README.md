@@ -1,41 +1,99 @@
 # Taller String MVC                                                                       
 ### 📥 [Página Anterior](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/INSTC00001)          🗃️ [Página principal](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004)          📤 [Página Siguiente](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/XXXXX00001)
 
-_Clase: Enum y Utilitario._
+_Clase: Controller._
 
 ```
-📢 Crearemos las siguientes clases que usaremos en la aplicación.
+📢 Ahora crearemos los controladores que se usarán para retornar los datos desde el servidor a la vista.
 ```
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/ENUTL00001_1.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CONTR00001_1.png)
 
 ```
-📢 Primero crearé un enum, para almacena las acciones que realizará el aplicativo.
+📢 El controlador debe tener la anotacion @Controller para que sea reconocido.
 ```
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/ENUTL00001_2.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CONTR00001_2.png)
 
 ```
-📢 En utilitarios agregaré algunas clases que me ayudarán en mis flujos.
-📢 Por ejemplo CORSFilter lo usare para mis pruebas unitarias. Esto lo usaré más adelante.
+📢 He agregado la anotación @RequestMapping para que podamos acceder a los métodos de este controlador con el nombre "empleados".
 ```
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/ENUTL00001_3.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CONTR00001_3.png)
 
 ```
-📢 La clase "Error" la usaré para almacerar el codigo de error y descripción.
+📢 Por ejemplo, si quiero llamar al método listar, lo debo llamar así:
+  http://localhost:8080/ProyectoSpringMVC/empleados/listar
 ```
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/ENUTL00001_4.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CONTR00001_4.png)
 
 ```
-📢 La clase "Response" nos ayudará a encapsular la respuesta de nuestros servicios. 
-📢 La respuesta la pondremos en el atributo body.
-📢 Si existe un error setearemos el atributo "error", el cual hace referencia a la clase "Error" que creamos.
-📢 Si el servicio no falla el atributo "error" no será usado.
+📢 Cuando llamemos al service no olvidar colocar @Autowired para permitir el acceso.
 ```
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/ENUTL00001_5.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CONTR00001_5.png)
+
+```
+📢 Si nos damos cuenta, hasta ahora hemos visto como llamar a los métodos que tenemos en el controlador.
+📢 La ruta vendría a ser el nombre de cada uno, el cual no se puede repetir.
+📢 Si se repite, el aplicativo nos daría un error.
+```
+
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CONTR00001_6.png)
+
+```
+📢 Estos métodos pueden ser:
+  POST => Crear
+  GET => Leer
+  PUT => Crear o actualizar
+  DELETE => Eliminar
+  PATCH => Actualizar
+```
+
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CONTR00001_7.png)
+
+```
+📢 Desde la vista podemos recibir datos en la ruta. Por ejemplo, es posible que accedan al método así:
+    http://localhost:8080/ProyectoSpringMVC/empleados/editar/23
+📢 El id vendría a ser 23 en este ejemplo.
+```
+
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CONTR00001_8.png)
+
+```
+📢 También nos pueden enviar el objeto completo, lo recibimos así.
+```
+
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CONTR00001_9.png)
+
+```
+📢 Ahora veremos como almacenar datos para envialos a la vista.
+📢 Podemos enviar datos en:
+  Model o HttpSession
+📢 Ambos son como medios de traslado de datos desde back al front.
+📢 La pricipal diferencia es su tiempo de vida.
+📢 Si yo guardo un dato en un Model, el servidor tomará el valor y lo enviará a la vista.
+📢 Si yo guardo un dato en un HttpSession, el servidor guardará este valor en su memoria y luego lo enviará a la vista.
+📢 El valor guardado en HttpSession estará guardando tu valor hasta:
+  Cuando se termina la sesión del usuario.
+  Cuando se apaga el servidor.
+  Cuando de forma manual lo eliminamos.
+📢 Podemos eliminar una variable HttpSession así:
+  session.removeAttribute("nombre_de_la_variable");
+```
+
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CONTR00001_10.png)
+
+```
+📢 Lo último que veremos será será indicar hacia donde queremos enviar estos valores que estamos almacenando.
+📢 Podemos indicar que retorne en un ruta en donde se cuentre nuestro jsp, html o donde queremos imprimir los datos:
+  return "empleado/detalle";
+📢 O podemos indicar que se dirija a un método del controlador. Por ejemplo, a listar:
+  return "redirect:listar"; 
+```
+
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CONTR00001_11.png)
 
 ## Autores ✒️
 
