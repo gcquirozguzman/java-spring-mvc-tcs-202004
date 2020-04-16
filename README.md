@@ -1,7 +1,7 @@
 # Taller String MVC                                                                       
-### 📥 [Página Anterior](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/INSTC00001)          🗃️ [Página principal](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004)          📤 [Página Siguiente](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/XXXXX00001)
+### 📥 [Página Anterior](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/CPCMV00001)          🗃️ [Página principal](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004)          📤 [Página Siguiente](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/ASVPR00001)
 
-_Clase: Configuracion Proyecto con Maven._
+_Clase: Agregando Dependencias._
 
 ```
 📢 A continuación se procederá a agregar o reemplazar en las secciones del archivo pom.xml.
@@ -9,7 +9,7 @@ _Clase: Configuracion Proyecto con Maven._
 📢 Cuando necesitamos ver la versión de una dependencia la podemos ver en la parte superior.
 ```
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/AGRDP00001_1.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/AGRDP00001_3.png)
 
 ```
 📢 El archivo completo lo pueden encontrar aquí.
@@ -32,4 +32,4 @@ https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/AGRDP00001/pom
 
 ⌨️ con ❤️ por [gcquirozguzman](https://github.com/gcquirozguzman) 😊
 
-### 📥 [Página Anterior](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/INSTC00001)          🗃️ [Página principal](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004)          📤 [Página Siguiente](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/XXXXX00001)
+### 📥 [Página Anterior](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/CPCMV00001)          🗃️ [Página principal](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004)          📤 [Página Siguiente](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/ASVPR00001)
