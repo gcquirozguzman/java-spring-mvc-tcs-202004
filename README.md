@@ -13,7 +13,7 @@ _Clase: Enum y Utilitario._
 📢 Primero crearé un enum, para almacena las acciones que realizará el aplicativo.
 ```
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/ENUTL00001_2.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/ENUTL00001_6.png)
 
 ```
 📢 En utilitarios agregaré algunas clases que me ayudarán en mis flujos.
