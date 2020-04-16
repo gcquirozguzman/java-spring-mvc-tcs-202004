@@ -46,13 +46,20 @@ _Clase: Agregando Vistas._
 ```
 📢 En home.jsp agregaré las siguientes opciones.
 📢 En la propiedad href estoy indicando a que método de controlador quiero llamar.
+📢 La siguiente línea llama al método del controlador que tenga la ruta "empleados/nuevo". Lo mismo con los demás.
+  <a href="empleados/nuevo">Agregar Empleado</a>
 ```
 
 ![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/AGVST00001_9.png)
 
 ```
 📢 En vista.jsp listaré todos los valores de "listadoEmpleado".
+📢 Desde el controlador lo enviamos como 
+  model.addAttribute("listadoEmpleado",list);
+📢 En el JSP solo lo consumimos.
 📢 En la cabecera mostraré un texto cuando "error" no esta vacío.
+📢 Recordar que también enviamos el dato "error deste el controlador:
+  model.addAttribute("error", "Registro esta asociado a otro.");
 ```
 
 ![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/AGVST00001_10.png)
@@ -73,6 +80,17 @@ _Clase: Agregando Vistas._
   https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/AGVST00001/src/main/webapp/WEB-INF/views/ingresos/detalle.jsp
 📢 Vista:
   https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/AGVST00001/src/main/webapp/WEB-INF/views/ingresos/vista.jsp
+```
+
+```
+📢 Este consumo de valores desde Controller es posible con la librería que estamos indicando en el JSP.
+📢 Se puede ver en cada JSP en la parte superior que se está importando la etiqueta.
+  <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+📢 Cuando quiero obtener un valor solo lo llamo así
+  ${nombre_de_valor}
+📢 También puedo hacer otras acciones como las que hemos implementado en el JSP:
+  For -> <c:forEach>
+  If -> <c:if>
 ```
 
 ## Autores ✒️
