@@ -4,72 +4,62 @@
 _Clase: RestController._
 
 ```
-📢 Crearemos las siguientes clases para colocar nuestros controladores dedicados para servicios.
-📢 Cuando nosotros creamos un servicio, lo hacemos con la finalidad de exponer nuestros métodos a otros aplicativos externos.
-📢 Si yo quisiero que todos los demás aplicativos tengan acceso a mi lista de empleados, creo un servicio que de acceso a ese método.
-📢 Estos métodos pueden ser:
-  POST => Crear
-  GET => Leer
-  PUT => Crear o actualizar
-  DELETE => Eliminar
-  PATCH => Actualizar
+📢 Crearemos los siguientes recursos.
 ```
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/RETCT00001_1.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/AGVST00001_1.png)
 
 ```
-📢 Lo primero que se realizará es agregar la anotación @RestController.
-📢 La anotación Spring RestController se usa para crear servicios web RESTful usando Spring MVC. 
-📢 Spring RestController se encarga de asignar los datos de solicitud al método de controlador de solicitud definido. 
-📢 Una vez que el cuerpo de respuesta se genera a partir del método del controlador, lo convierte en respuesta JSON o XML.
+📢 Es posible que dé un error. Podemos resolverlo agregando el servidor en propiedades.
 ```
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/RETCT00001_2.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/AGVST00001_2.png)
+
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/AGVST00001_3.png)
 
 ```
-📢 Agregamos también la anotación @RequestMapping, explicado en el tema anterior.
+📢 Actualizamos el proyecto.
 ```
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/RETCT00001_3.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/AGVST00001_4.png)
 
 ```
-📢 Se agrega @Autowired para inyectar la dependencia del objeto implícitamente.
+📢 En caso no se solucione el error ingresamos a esta opción.
 ```
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/RETCT00001_4.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/AGVST00001_5.png)
 
 ```
-📢 Considerar que al igual que el anterior controlador, se puede acceder a este con la ruta y tipo de llamada (GET, POST, PUT, etc).
+📢 En el area de validación quitamos los siguientes check para que no valide nuestros archivos jsp.
 ```
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/RETCT00001_6.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/AGVST00001_6.png)
+
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/AGVST00001_7.png)
 
 ```
-📢 Se puede recoger los datos que se envian como algun tipo de dato. 
-📢 Es posible también recoger un objeto.
+📢 Vemos que se ha solucionado.
 ```
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/RETCT00001_7.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/AGVST00001_8.png)
 
 ```
-📢 Como es un servicio, no retornaremos hacia un jsp, html u otro recurso. 
-📢 Lo que se retornara es simplemente una trama.
-📢 Ahora usaremos la clase "Response" que creamos en el paquete utilitario.
-📢 Como vemos, si no sucede un error se seteará el atributo "Body" con la data que queremos enviar.
-  response.setBody(empleadoResponse);
-📢 En caso suceda un error seteamos el atributo "Error". 
-📢 Le envío un código de error que pueda usar el aplicativo que lo llama y el detalle del error.
-  response.setError(new Error("ERROR_GENERICO", e.toString()));
+📢 En home.jsp agregaré las siguientes opciones.
+📢 En la propiedad href estoy indicando a que método de controlador quiero llamar.
 ```
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/RETCT00001_5.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/AGVST00001_9.png)
 
 ```
-📢 Como último paso, retornaré el objeto "Response".
-  ResponseEntity.ok().body(response)
+📢 En detalle.jsp colocaremos los dato.
+📢 "accion" es un valor que se obtiene del controlador.
+📢 Para que el formulario obtenga los valores se debe indicar en value. Se llama el modelo enviado "empleado" y sus atributos.
+📢 En la propiedad name se indica con que valor llegara al controlador.
+📢 Por último, en el formulario se indica el método (POST) y a que ruta del controlador se llamará.
 ```
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/RETCT00001_8.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/AGVST00001_10.png)
+
 
 ## Autores ✒️
 
