@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import com.tcs.app.model.Ingresos;
 import com.tcs.app.service.EmpleadoService;
 import com.tcs.app.service.IngresosService;
+import com.tcs.app.valores.AccionEnum;
 
 @Controller
 @RequestMapping("ingresos")
@@ -34,7 +35,7 @@ public class IngresosController {
     public String showform(Model model){  
     	model.addAttribute("ingresos", new Ingresos());
     	model.addAttribute("listadoEmpleado", empleadoService.list());
-    	model.addAttribute("accion", "nuevo");
+    	model.addAttribute("accion", AccionEnum.nuevo);
     	return "ingresos/detalle"; 
     }
     
@@ -43,7 +44,7 @@ public class IngresosController {
     	Ingresos ingresos = ingresosService.get(id);  
     	model.addAttribute("ingresos",ingresos);
     	model.addAttribute("listadoEmpleado", empleadoService.list());
-        model.addAttribute("accion", "editar");
+        model.addAttribute("accion", AccionEnum.editar);
         return "ingresos/detalle";  
     }
     
