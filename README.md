@@ -82,6 +82,8 @@ _Clase: Agregando Vistas._
   https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/AGVST00001/src/main/webapp/WEB-INF/views/ingresos/vista.jsp
 ```
 
+#### JSTL
+
 ```
 📢 Este consumo de valores desde Controller es posible con la librería que estamos indicando en el JSP.
 📢 Se puede ver en cada JSP en la parte superior que se está importando la etiqueta.
@@ -91,6 +93,15 @@ _Clase: Agregando Vistas._
 📢 También puedo hacer otras acciones como las que hemos implementado en el JSP:
   For -> <c:forEach>
   If -> <c:if>
+📢 Exite otras etiquetas que nos pueden ayudar cuando desarrollemos:
+  https://www.javatpoint.com/jstl
+```
+
+#### Probando
+
+```
+📢 Lo último que queda es probar el aplicativo. Para esto ingresamos a la ruta:
+  localhost:8080/ProyectoSpringMVC
 ```
 
 ## Autores ✒️
