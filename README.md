@@ -67,6 +67,13 @@ _Clase: RestController._
 
 ![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/AGVST00001_11.png)
 
+```
+📢 Se puede ver la implementación de la parte ingresos a continuación.
+📢 Detalle:
+  https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/AGVST00001/src/main/webapp/WEB-INF/views/ingresos/detalle.jsp
+📢 Vista:
+  https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/AGVST00001/src/main/webapp/WEB-INF/views/ingresos/vista.jsp
+```
 
 ## Autores ✒️
 
