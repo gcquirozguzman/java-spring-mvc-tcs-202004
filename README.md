@@ -71,6 +71,11 @@ _Clase: RestController._
 
 ![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/RETCT00001_8.png)
 
+```
+📢 Hacer lo mismo para IngresosRestController.
+  https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/RETCT00001/src/main/java/com/tcs/app/restController/IngresosRestController.java
+```
+
 ## Autores ✒️
 
 * **Gian Carlo Quiroz Guzmán** - *Proyecto Demo* - [gcquirozguzman](https://github.com/gcquirozguzman)
