@@ -62,6 +62,11 @@ _En este taller usaremos las siguientes herramientas. En las clases detallaremos
 📢 Ingresar al "Centro de Descargas" https://developers.redhat.com/products/eap/download
 📢 Seleccionar la versión "Versión 7.2" y descargar https://developers.redhat.com/download-manager/file/jboss-eap-7.2.0.zip
 ```
+🔧 [Postman]
+```
+📢 Ingresar al "Centro de Descargas" https://www.postman.com/downloads/
+📢 Descargar la versión Windows x86	o Windows x64. 
+```
 
 ## Autores ✒️
 
