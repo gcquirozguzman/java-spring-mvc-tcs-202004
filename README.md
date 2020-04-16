@@ -91,6 +91,10 @@ _Clase: Controller._
 
 ![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CONTR00001_10.png)
 
+```
+📢 Hacer lo mismo para IngresosController.
+```
+
 ## Autores ✒️
 
 * **Gian Carlo Quiroz Guzmán** - *Proyecto Demo* - [gcquirozguzman](https://github.com/gcquirozguzman)
