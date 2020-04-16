@@ -10,7 +10,8 @@ import org.springframework.web.filter.OncePerRequestFilter;
 public class CORSFilter extends OncePerRequestFilter {
 
     @Override
-    protected void doFilterInternal(HttpServletRequest req, HttpServletResponse res, FilterChain chain) throws ServletException, IOException {
+    protected void doFilterInternal(HttpServletRequest req, HttpServletResponse res, FilterChain chain) 
+    		throws ServletException, IOException {
         //LOG.info("Adding CORS Headers ........................");
         res.setHeader("Access-Control-Allow-Origin", "*");
         res.setHeader("Access-Control-Allow-Methods", "POST, GET, PUT, OPTIONS, DELETE");
