@@ -68,6 +68,14 @@ _En este taller usaremos las siguientes herramientas. En las clases detallaremos
 📢 Descargar la versión Windows x86	o Windows x64. 
 ```
 
+## Solución a Errores 🐶
+
+_[Aquí](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/JUNIT00001) podrás revisar soluciones a pobiles errores en el desarrollo del curso._
+
+## Consideraciones 👀
+
+_[Aquí](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/JUNIT00001) se detalla algunas consideraciones que se debe tener cuando se trabaja con estas herramientas._
+
 ## Autores ✒️
 
 * **Gian Carlo Quiroz Guzmán** - *Proyecto Demo* - [gcquirozguzman](https://github.com/gcquirozguzman)
