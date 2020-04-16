@@ -84,6 +84,8 @@ _Clase: JUnit._
 
 ```
 📢 Siempre la salida debe estar en verde para comprobar que nuestra prueba terminó exitosamente.
+📢 Se pueden encontrar mas ejemplos en el siguiente enlace:
+  https://memorynotfound.com/unit-test-spring-mvc-rest-service-junit-mockito/
 ```
 
 ![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/JUNIT00001_15.png)
