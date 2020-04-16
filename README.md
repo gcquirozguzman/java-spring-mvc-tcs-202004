@@ -70,11 +70,15 @@ _En este taller usaremos las siguientes herramientas. En las clases detallaremos
 
 ## Solución a Errores 🐶
 
-_[Aquí](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/JUNIT00001) podrás revisar soluciones a pobiles errores en el desarrollo del curso._
+_Podrás revisar soluciones a pobiles errores en el desarrollo del curso [aquí](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/SOLER00001)._
 
 ## Consideraciones 👀
 
-_[Aquí](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/JUNIT00001) se detalla algunas consideraciones que se debe tener cuando se trabaja con estas herramientas._
+_Se detalla algunas consideraciones que se debe tener cuando se trabaja con estas herramientas [aquí](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/CONSD00001)._
+
+## Proyecto Salida 🐉
+
+_Puedes obtener la indicaciones para el proyecto de salida [aquí](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/PRSA100001)._
 
 ## Autores ✒️
 
