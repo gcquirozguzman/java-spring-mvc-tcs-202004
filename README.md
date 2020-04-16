@@ -1,7 +1,7 @@
 # Taller String MVC                                                                       
 ### 📥 [Página Anterior](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/CRDPR00001)          🗃️ [Página principal](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004)          📤 [Página Siguiente](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/AGRDP00001)
 
-_Clase: Configuracion Proyecto con Maven._
+_Clase: Configuración Proyecto con Maven._
 
 #### ¿En que nos ayuda Apache Maven?
 
