@@ -51,6 +51,13 @@ _Clase: RestController._
 ![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/AGVST00001_9.png)
 
 ```
+📢 En vista.jsp listaré todos los valores de "listadoEmpleado".
+📢 En la cabecera mostraré un texto cuando "error" no esta vacío.
+```
+
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/AGVST00001_10.png)
+
+```
 📢 En detalle.jsp colocaremos los dato.
 📢 "accion" es un valor que se obtiene del controlador.
 📢 Para que el formulario obtenga los valores se debe indicar en value. Se llama el modelo enviado "empleado" y sus atributos.
@@ -58,7 +65,7 @@ _Clase: RestController._
 📢 Por último, en el formulario se indica el método (POST) y a que ruta del controlador se llamará.
 ```
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/AGVST00001_10.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/AGVST00001_11.png)
 
 
 ## Autores ✒️
