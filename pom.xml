@@ -13,7 +13,7 @@
 		<slf4j.version>2.0.0-alpha1</slf4j.version>
 		<javax.servlet.version>1.2</javax.servlet.version>
 		<javax.servlet.jsp.version>2.1</javax.servlet.jsp.version>
-		<javax.servlet.api.version>2.3</javax.servlet.api.version>		
+		<javax.servlet-api.version>3.1.0</javax.servlet-api.version>		
 		<jackson.databind.version>2.9.4</jackson.databind.version>
 		<com.h2database.version>1.4.196</com.h2database.version>
 		<junit.version>4.12</junit.version>
@@ -88,10 +88,10 @@
         </dependency>
         
         <!-- JavaServlet(TM) Specification -->
-		<dependency>
+        <dependency>
 		    <groupId>javax.servlet</groupId>
-		    <artifactId>servlet-api</artifactId>
-		    <version>${javax.servlet.api.version}</version>
+		    <artifactId>javax.servlet-api</artifactId>
+		    <version>${javax.servlet-api.version}</version>
 		    <scope>provided</scope>
 		</dependency>
         
