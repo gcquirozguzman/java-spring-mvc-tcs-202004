@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.tcs.app.model.Empleado;
 import com.tcs.app.service.EmpleadoService;
+import com.tcs.app.valores.AccionEnum;
 
 @Controller
 @RequestMapping("empleados")
@@ -34,7 +35,7 @@ public class EmpleadoController {
     @RequestMapping("nuevo")
     public String showform(Model model){  
     	model.addAttribute("empleado", new Empleado());
-    	model.addAttribute("accion", "nuevo");
+    	model.addAttribute("accion", AccionEnum.nuevo);
     	return "empleado/detalle"; 
     }
     
@@ -42,7 +43,7 @@ public class EmpleadoController {
     public String edit(@PathVariable long id, Model model){  
     	Empleado empleado = empleadoService.get(id);  
     	model.addAttribute("empleado",empleado);
-        model.addAttribute("accion", "editar");
+        model.addAttribute("accion", AccionEnum.editar);
         return "empleado/detalle";  
     }
     
