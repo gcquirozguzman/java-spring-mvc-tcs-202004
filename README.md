@@ -1,108 +1,244 @@
 # Taller String MVC                                                                       
 ### 📥 [Página Anterior](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/RETCT00001)          🗃️ [Página principal](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004)          📤 [Página Siguiente](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/XXXXX00001)
 
-_Clase: Agregando Vistas._
+_Clase: Probando Servicios._
 
 ```
-📢 Crearemos los siguientes recursos.
+📢 Iniciare el servidor en modo Debug.
 ```
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/AGVST00001_1.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/PRSER00001_1.png)
 
 ```
-📢 Es posible que dé un error. Podemos resolverlo agregando el servidor en propiedades.
+📢 Instalaré Postman descargado de la ruta "https://www.postman.com/downloads/".
+📢 Iniciaré el programa.
 ```
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/AGVST00001_2.png)
-
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/AGVST00001_3.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/PRSER00001_2.png)
 
 ```
-📢 Actualizamos el proyecto.
+📢 Creare un ambiente de trabajo para este proyecto.
 ```
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/AGVST00001_4.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/PRSER00001_3.png)
 
 ```
-📢 En caso no se solucione el error ingresamos a esta opción.
+📢 Le colocaré un nombre.
 ```
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/AGVST00001_5.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/PRSER00001_4.png)
 
 ```
-📢 En el area de validación quitamos los siguientes check para que no valide nuestros archivos jsp.
+📢 Ahora separaré cada grupo de servicios de mi ambiente en folder.
 ```
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/AGVST00001_6.png)
-
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/AGVST00001_7.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/PRSER00001_5.png)
 
 ```
-📢 Vemos que se ha solucionado.
+📢 Crearé uno para "Empleado".
 ```
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/AGVST00001_8.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/PRSER00001_6.png)
 
 ```
-📢 En home.jsp agregaré las siguientes opciones.
-📢 En la propiedad href estoy indicando a que método de controlador quiero llamar.
-📢 La siguiente línea llama al método del controlador que tenga la ruta "empleados/nuevo". Lo mismo con los demás.
-  <a href="empleados/nuevo">Agregar Empleado</a>
+📢 Ahora ahi agregaré un request.
 ```
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/AGVST00001_9.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/PRSER00001_7.png)
 
 ```
-📢 En vista.jsp listaré todos los valores de "listadoEmpleado".
-📢 Desde el controlador lo enviamos como 
-  model.addAttribute("listadoEmpleado",list);
-📢 En el JSP solo lo consumimos.
-📢 En la cabecera mostraré un texto cuando "error" no esta vacío.
-📢 Recordar que también enviamos el dato "error deste el controlador:
-  model.addAttribute("error", "Registro esta asociado a otro.");
+📢 Voy a crear el de "Listar".
 ```
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/AGVST00001_10.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/PRSER00001_8.png)
 
 ```
-📢 En detalle.jsp colocaremos los dato.
-📢 "accion" es un valor que se obtiene del controlador.
-📢 Para que el formulario obtenga los valores se debe indicar en value. Se llama el modelo enviado "empleado" y sus atributos.
-📢 En la propiedad name se indica con que valor llegara al controlador.
-📢 Por último, en el formulario se indica el método (POST) y a que ruta del controlador se llamará.
+📢 Luego de creado, selecciono y puedo ver al lado derecho un panel.
 ```
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/AGVST00001_11.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/PRSER00001_9.png)
 
 ```
-📢 Se puede ver la implementación de la parte ingresos a continuación.
-📢 Detalle:
-  https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/AGVST00001/src/main/webapp/WEB-INF/views/ingresos/detalle.jsp
-📢 Vista:
-  https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/AGVST00001/src/main/webapp/WEB-INF/views/ingresos/vista.jsp
+📢 En esta sección tengo que indicar el tipo y nombre de servicio.
+📢 Es un servicio GET
+📢 La ruta es:
+  http://localhost:8080/ProyectoSpringMVC/rest/empleado/listar
 ```
 
-#### JSTL
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/PRSER00001_10.png)
 
 ```
-📢 Este consumo de valores desde Controller es posible con la librería que estamos indicando en el JSP.
-📢 Se puede ver en cada JSP en la parte superior que se está importando la etiqueta.
-  <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-📢 Cuando quiero obtener un valor solo lo llamo así
-  ${nombre_de_valor}
-📢 También puedo hacer otras acciones como las que hemos implementado en el JSP:
-  For -> <c:forEach>
-  If -> <c:if>
-📢 Exite otras etiquetas que nos pueden ayudar cuando desarrollemos:
-  https://www.javatpoint.com/jstl
+📢 Seleccionaré "Send" para comunicarme con el servidor.
 ```
 
-#### Probando
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/PRSER00001_11.png)
 
 ```
-📢 Lo último que queda es probar el aplicativo. Para esto ingresamos a la ruta:
-  localhost:8080/ProyectoSpringMVC
+📢 Vemos que me ha dado un respuesta.
 ```
+
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/PRSER00001_12.png)
+
+```
+📢 Me dirijo ahora a al clase "EmpleadoRestController".
+📢 Doble clic en la barrita al lado de la primera línea de mi método.
+📢 Hemos creando un punto de interrupción.
+```
+
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/PRSER00001_13.png)
+
+```
+📢 Volveré a enviar la petición.
+```
+
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/PRSER00001_14.png)
+
+```
+📢 Vuelvo al IDE y veo que me consulta si quiero cambiar de vista.
+📢 Le diré que no por ahora.
+```
+
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/PRSER00001_15.png)
+
+```
+📢 Se ha sombreado la línea donde he marcado.
+📢 Esto ha sucedido porque he pedido al programa que cuando se llame a este método se detenga ahí hasta que le diga que avance.
+📢 Recorre 1 línea cada vez que preciono F6.
+📢 Presionare F6 2 veces.
+```
+
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/PRSER00001_16.png)
+
+```
+📢 Ahora veo que ha recorrido 2 líneas.  
+```
+
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/PRSER00001_17.png)
+
+```
+📢 Colocaré el cursor encima de la variable "empleadoResponse".
+📢 Esta variable se ha cargado con la respuesta de  "empleadoService.list()".
+📢 Hasta esta línea donde está marcada tiene estos datos.
+📢 Puedo extender para ver los detalles.
+```
+
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/PRSER00001_18.png)
+
+```
+📢 Como ya terminé el ejemplo, quiero finalizar la revisión y que siga el método con su flujo.
+📢 Para esto presiono F8.
+📢 F8 permite que siga hasta que encuentre el siguiente punto de interrupción.
+📢 Como no he colocado otro punto, seguira hasta el final.
+```
+
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/PRSER00001_19.png)
+
+```
+📢 Crearé en Postma el request para "crear".
+```
+
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/PRSER00001_20.png)
+
+```
+📢 El servicio ahora nos pide que le enviemos un objeto.
+```
+
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/PRSER00001_21.png)
+
+```
+📢 Crearé el "request".
+📢 Colocaré que es POST.
+📢 Indicaré la ruta.
+📢 Seleccionaré que enviare como parámetro un " Body".
+📢 Seleccionaré "raw" y como formato "JSON".
+```
+
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/PRSER00001_22.png)
+
+```
+📢 Colocaré mi objeto en formato JSON.
+```
+
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/PRSER00001_23.png)
+
+```
+📢 Enviaré la petición.
+```
+
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/PRSER00001_24.png)
+
+```
+📢 Veo que la respuesta es satisfactoria.
+📢 El atributo error esta vacío.
+📢 El resultado me lo envia en el "Body".
+```
+
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/PRSER00001_25.png)
+
+```
+📢 Crearé el request para el servicio "buscar".
+```
+
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/PRSER00001_26.png)
+
+```
+📢 Ingreso tipo y ruta de servicio.
+📢 Le enviaré en vez de {id} el id del empleado que quiero.
+📢 Para este ejemplo usare el id del empleado que acabo de crear.
+```
+
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/PRSER00001_27.png)
+
+```
+📢 Me trae la respuesta correctamente.
+```
+
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/PRSER00001_28.png)
+
+```
+📢 Crearé el request para el servicio "eliminar".
+```
+
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/PRSER00001_29.png)
+
+```
+📢 Ingreso tipo y ruta de servicio.
+📢 Le enviaré en vez de {id} el id del empleado que quiero.
+📢 Para este ejemplo usare el id del empleado que acabo de crear.
+```
+
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/PRSER00001_36.png)
+
+```
+📢 Me trae la respuesta correctamente.
+```
+
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/PRSER00001_37.png)
+
+```
+📢 Crearé el request para el servicio "actualizar".
+```
+
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/PRSER00001_41.png)
+
+```
+📢 Ingreso tipo y ruta de servicio.
+📢 Ingreso el objeto en el "Body".
+```
+
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/PRSER00001_38.png)
+
+```
+📢 Me trae la respuesta correctamente.
+```
+
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/PRSER00001_39.png)
+
+```
+📢 Hemos probado todos los servicios referente a Empleado de nuestro aplicativo.
+```
+
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/PRSER00001_40.png)
 
 ## Autores ✒️
 
