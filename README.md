@@ -38,11 +38,7 @@ _Clase: Controller._
 📢 Si nos damos cuenta, hasta ahora hemos visto como llamar a los métodos que tenemos en el controlador.
 📢 La ruta vendría a ser el nombre de cada uno, el cual no se puede repetir.
 📢 Si se repite, el aplicativo nos daría un error.
-```
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CONTR00001_6.png)
-
-```
 📢 Estos métodos pueden ser:
   POST => Crear
   GET => Leer
@@ -51,7 +47,7 @@ _Clase: Controller._
   PATCH => Actualizar
 ```
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CONTR00001_7.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CONTR00001_6.png)
 
 ```
 📢 Desde la vista podemos recibir datos en la ruta. Por ejemplo, es posible que accedan al método así:
@@ -59,13 +55,13 @@ _Clase: Controller._
 📢 El id vendría a ser 23 en este ejemplo.
 ```
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CONTR00001_8.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CONTR00001_7.png)
 
 ```
 📢 También nos pueden enviar el objeto completo, lo recibimos así.
 ```
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CONTR00001_9.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CONTR00001_8.png)
 
 ```
 📢 Ahora veremos como almacenar datos para envialos a la vista.
@@ -83,7 +79,7 @@ _Clase: Controller._
   session.removeAttribute("nombre_de_la_variable");
 ```
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CONTR00001_10.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CONTR00001_9.png)
 
 ```
 📢 Lo último que veremos será será indicar hacia donde queremos enviar estos valores que estamos almacenando.
@@ -93,7 +89,7 @@ _Clase: Controller._
   return "redirect:listar"; 
 ```
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CONTR00001_11.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/CONTR00001_10.png)
 
 ## Autores ✒️
 
