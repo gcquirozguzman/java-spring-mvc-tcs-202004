@@ -8,7 +8,7 @@ _[2) Instalando Complementos en IDE.](https://github.com/gcquirozguzman/java-spr
 
 _[3) Creando Proyecto.](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/CRDPR00001)_ 
 
-_[4) Configuracion Proyecto con Maven.](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/CPCMV00001)_ 
+_[4) Configuración Proyecto con Maven.](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/CPCMV00001)_ 
 
 _[5) Agregando Dependencias.](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/AGRDP00001)_ 
 
