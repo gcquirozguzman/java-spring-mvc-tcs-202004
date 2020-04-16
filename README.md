@@ -1,7 +1,7 @@
 # Taller String MVC                                                                       
 ### 📥 [Página Anterior](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/INSTC00001)          🗃️ [Página principal](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004)          📤 [Página Siguiente](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/XXXXX00001)
 
-_Clase: Configuracion Proyecto con Maven._
+_Clase: Agregando Dependencias._
 
 ```
 📢 A continuación se procederá a agregar o reemplazar en las secciones del archivo pom.xml.
