@@ -49,7 +49,7 @@ public class StudieControllerV0UnitTest{
     }
 
 	@Test
-	public void getStudie() throws Exception {
+	public void getEmpleado() throws Exception {
 		
 		Empleado empleado = new Empleado();
 		empleado.setId(1);
