@@ -1,7 +1,7 @@
 # Taller String MVC                                                                       
 ### 🗃️ [Página principal](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004)
 
-_Solución a Errores 🐶_
+# Solución a Errores 🐶
 
 ## Problema al Instalar Complemento en Eclipse
 
