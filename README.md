@@ -3,7 +3,7 @@
 
 _Solución a Errores 🐶_
 
-#### Problema al Instalar Complemento en Eclipse
+## Problema al Instalar Complemento en Eclipse
 
 ```
 📢 Esto se soluciona dando permisos de administrador a Eclipse debido a que está en el disco C. 
@@ -11,7 +11,7 @@ _Solución a Errores 🐶_
 ```
 ![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/SOLER00001_1.png)
 
-#### Problema al Cambiar el Nombre War en Pom.xml
+## Problema al Cambiar el Nombre War en Pom.xml
 
 ```
 📢 No solo basta con cambiar el nombre. 
@@ -61,7 +61,7 @@ _Solución a Errores 🐶_
 
 ![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/SOLER00001_9.png)
 
-#### Puerto ya está siendo usado
+## Puerto ya está siendo usado
 
 ```
 📢 En este caso, cambiar el puerto como se explicó en la útlima parte del tema:
