@@ -11,6 +11,24 @@
 ```
 ![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/SOLER00001_1.png)
 
+## Problema en Pom no solucionado con Maven > Update Project
+
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/SOLER00001_24.png)
+
+```
+📢 Intentaré solucionarlo limpiando e instalando manualmente las dependencias.
+```
+
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/SOLER00001_25.png)
+
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/SOLER00001_26.png)
+
+```
+📢 Puedo ver en la consola que ha terminado correctamente.
+```
+
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/SOLER00001_27.png)
+
 ## Problema al Cambiar el Nombre War en Pom.xml
 
 ```
