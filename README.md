@@ -1,94 +1,104 @@
 # Taller String MVC                                                                       
-### 📥 [Página Anterior](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/PRSER00001)          🗃️ [Página principal](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004)          
+### 🗃️ [Página principal](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004)
 
-_Clase: JUnit._
+# Proyecto Salida 🐉
 
-```
-📢 Crearé la siguiente clase en el paquete de test.
-```
+#### 🐦 Indicaciones para Proyecto Salida
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/JUNIT00001_1.png)
+Para este proyecto desarrollaremos bajo las siguientes pautas.
 
-```
-📢 Nuestra clase debe tener las anotaciones de JUnit para que pueda ser reconocida.
-```
-
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/JUNIT00001_2.png)
+#### 🐰 Arrancamos!!!
 
 ```
-📢 También tiene que indicarse donde está "servlet-context.xml". Ahi tenemos las configuraciones de BD, query, properties y demás.
+📢 Luego de haber terminado el taller, es necesario aplicar nuestros conocimientos en crear un aplicativo pequeño.
+📢 Este aplicativo debe realizarse considerando tanto la parte back, como front.
+📢 Crearemos un aplicativo que ayude a un flujo pequeño. Por ejemplo:
+    -> Mantenimiento de Vendedor
 ```
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/JUNIT00001_3.png)
+#### 🕺 Criterios de Aceptación
 
 ```
-📢 Necesitamos que estén disponibles tanto el controlador como los services que necesita.
-  EmpleadoRestController
-  EmpleadoService
+📢 Debe tener como mínimo 2 tablas que se relacionen entre sí.
+📢 La parte front debe tener un diseño que sea manejado con Bootstrap (Mínimo versión 4).
+📢 Se debe agregar un módulo de seguridad con Spring Security.
+📢 Agregar mínimo 5 funciones con JavaScript que ayude al flujo, como:
+  Al hacer clic en el botón "Limpiar" eliminar valores de casillas.
+📢 Agregar mínimo 5 funciones con Jquery que ayude al flujo, como:
+  Al hacer clic en el botón "Saludar", recoge todos los datos del formulario y me envia un alert() con los datos.
+📢 Se debe considerar agregar Log4j en el proyecto.
+📢 Cambiar de base de datos H2 por Postgresql
+📢 Se debe preparar los servicios (RestController) de los módulos que se tenga.
+📢 Se debe preparar un set completo de pruebas del RestController que se eliga con JUnit y Mock. 
+📢 Crear una tarea programada con Quartz Scheduler para que cada 30 minutos se envie un correo a su bandeja indicando que el servidor esta funcionando.
 ```
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/JUNIT00001_4.png)
+#### 🖖 Material de Ayuda
 
 ```
-📢 Inicializo los objetos de Mock.
+📢 En el siguiente enlace se puede encontrar un ejemplo de lo mínimo que se espera en la parte vista.
+📢 Da información de como cambiar a otra base de datos.
 ```
+  https://parzibyte.me/blog/2019/09/04/sistema-ventas-spring-mvc-mysql-bootstrap/
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/JUNIT00001_5.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/PRSA100001_1.png)
 
-```
-📢 Para este caso solo he agregado 1 test. Puedo agregar varios en esta prueba de empleados.
-```
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/PRSA100001_2.png)
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/JUNIT00001_6.png)
-
-```
-📢 Este test realizará una prueba al servicio "buscar" de "EmpleadoRestController".
-📢 Primero creo el objeto que se que está en la base de datos.
-```
-
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/JUNIT00001_7.png)
+![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/PRSA100001_3.png)
 
 ```
-📢 Compruebo la igualdad entre lo que retorna el servicio y mi objeto. Ambos deberían ser iguales o devuelve error.
+📢 Puede encontrar mas información referente a como agregar Spring Security en el siguiente enlace.
 ```
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/JUNIT00001_8.png)
+  https://www.baeldung.com/spring-security-login
 
 ```
-📢 Ahora reviso lo que me devuelve el servicio campo por campo.
+📢 Puede encontrar mas información referente a como agregar Log4j en el siguiente enlace.
 ```
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/JUNIT00001_9.png)
-
+  https://mkyong.com/spring-mvc/spring-mvc-log4j-integration-example/
+  
 ```
-📢 Reviso que solo se ejecute 1 vez.
-```
-
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/JUNIT00001_10.png)
-
-```
-📢 Reviso que luego que se llama el servicio, no existan mas interacciones.
+📢 Puede encontrar mas información referente a como agregar Quartz Scheduler en el siguiente enlace.
 ```
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/JUNIT00001_11.png)
+  http://websystique.com/spring/spring-4-quartz-scheduler-integration-example/
 
 ```
-📢 Si quiero ver paso a paso puedo agregarle un punto de interrupción e iniciar el servidor en Debug.
+📢 Puede encontrar mas información referente a Bootstrap en el siguiente enlace.
+```
+  https://codingpotions.com/desarrollo-web-boostrap
+  
+```
+📢 Puede encontrar mas información referente a JavaScript en el siguiente enlace.
 ```
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/JUNIT00001_12.png)
+  https://www.w3schools.com/js/js_variables.asp
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/JUNIT00001_13.png)
+  https://www.w3schools.com/js/js_functions.asp
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/JUNIT00001_14.png)
+  https://www.w3schools.com/jsref/prop_text_value.asp
 
 ```
-📢 Siempre la salida debe estar en verde para comprobar que nuestra prueba terminó exitosamente.
-📢 Se pueden encontrar mas ejemplos en el siguiente enlace:
-  https://memorynotfound.com/unit-test-spring-mvc-rest-service-junit-mockito/
+📢 Puede encontrar mas información referente a Jquery en el siguiente enlace.
+📢 Considerar los temas:
+  jQuery Hide/Show
+  jQuery HTML Get Content and Attributes
+  jQuery HTML Set Content and Attributes
+  jQuery HTML Add Elements/Content
+  jQuery HTML Remove Elements/Content
+  jQuery Get and Set CSS Classes
+  jQuery css() Method
+  jQuery AJAX get() and post() Methods
 ```
+  https://www.w3schools.com/jquery/jquery_examples.asp
 
-![Error: imagen no ha sido cargada](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/blob/master/imagenes/JUNIT00001_15.png)
+#### 🏂 Criterios Adicional por Puntos Extras
+
+```
+📢 Crear un panel desde donde pueda ejecutar manualmente las tareas programadas y donde donde se pueda ver el historial de estas.
+```
 
 ## Autores ✒️
 
@@ -96,4 +106,4 @@ _Clase: JUnit._
 
 ⌨️ con ❤️ por [gcquirozguzman](https://github.com/gcquirozguzman) 😊
 
-### 📥 [Página Anterior](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004/tree/PRSER00001)          🗃️ [Página principal](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004)          
+### 🗃️ [Página principal](https://github.com/gcquirozguzman/java-spring-mvc-tcs-202004)
