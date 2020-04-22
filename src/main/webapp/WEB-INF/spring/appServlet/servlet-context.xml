@@ -36,10 +36,25 @@
     <tx:annotation-driven transaction-manager="txManager" />
     
     <!-- Indicando que usare H2 y que use los siguientes script cuando inicie -->
-    <jdbc:embedded-database id="dataSource" type="H2">
+	<!-- Seccion solo para HSQL, H2 y Derby -->
+    <!-- <jdbc:embedded-database id="dataSource" type="H2">
         <jdbc:script location="resources/script/create-table.sql" />
         <jdbc:script location="resources/script/insert-data.sql" />
-    </jdbc:embedded-database>
+    </jdbc:embedded-database> -->
+    
+    <!-- <beans:bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<beans:property name="driverClassName" value="org.postgresql.Driver" />
+		<beans:property name="url" value="jdbc:postgresql://localhost:5432/proyecto22042020" />
+		<beans:property name="username" value="postgres" />
+		<beans:property name="password" value="postgres" />
+	</beans:bean> -->
+    
+    <beans:bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<beans:property name="driverClassName" value="${jdbc.driverClassName}" />
+		<beans:property name="url" value="${jdbc.url}" />
+		<beans:property name="username" value="${jdbc.username}" />
+		<beans:property name="password" value="${jdbc.password}" />
+	</beans:bean>
     
      <!-- Identifica y describe el origen de datos -->
     <beans:bean id="txManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
@@ -55,8 +70,9 @@
     <beans:bean id="dbProperties" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
 	    <beans:property name="locations">	    	
 		    <beans:list>			    
-			    <beans:value>/resources/application.properties</beans:value>
-			    <beans:value>/resources/querys.properties</beans:value>
+			    <beans:value>/resources/properties/application.properties</beans:value>
+			    <beans:value>/resources/properties/querys.properties</beans:value>
+			    <beans:value>/resources/properties/jdbc.properties</beans:value>
 		    </beans:list>
 	    </beans:property>
 	</beans:bean>

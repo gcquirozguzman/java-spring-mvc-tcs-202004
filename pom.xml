@@ -102,12 +102,12 @@
             <version>${jackson.databind.version}</version>
         </dependency>
         
-        <!-- Motor de base de datos H2 -->
+        <!-- Libreria para Coneccion Postgresql -->        
         <dependency>
-            <groupId>com.h2database</groupId>
-            <artifactId>h2</artifactId>
-            <version>${com.h2database.version}</version>
-        </dependency>
+		    <groupId>org.postgresql</groupId>
+		    <artifactId>postgresql</artifactId>
+		    <version>42.2.12</version>
+		</dependency>
         
         <!-- JSTL -->
         <dependency>

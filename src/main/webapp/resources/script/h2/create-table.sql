@@ -1,7 +1,7 @@
 --Tabla con empleado
 
 CREATE TABLE `Empleado` (
-  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `id` integer(10) NOT NULL AUTO_INCREMENT,
   `nombre` varchar(20) NOT NULL,
   `apellido` varchar(20) NOT NULL,
   `edad` int(20) NOT NULL,
