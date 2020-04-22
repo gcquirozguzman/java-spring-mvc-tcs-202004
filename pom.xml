@@ -116,6 +116,13 @@
 			<version>${javax.servlet.version}</version>
 		</dependency>
 		
+		<!-- JSTL -->
+		<dependency>
+		    <groupId>jstl</groupId>
+		    <artifactId>jstl</artifactId>
+		    <version>1.2</version>
+		</dependency>
+		
         <!-- JUnit es un marco de pruebas unitarias para Java -->
         <dependency>
             <groupId>junit</groupId>
@@ -130,6 +137,23 @@
             </exclusions>
         </dependency>
         
+        <!-- Dependencia de Spring Security -->
+		<dependency>
+		  <groupId>org.springframework.security</groupId>
+		  <artifactId>spring-security-web</artifactId>
+		  <version>5.1.1.RELEASE</version>
+		</dependency>
+		<dependency>
+		  <groupId>org.springframework.security</groupId>
+		  <artifactId>spring-security-core</artifactId>
+		  <version>5.1.1.RELEASE</version>
+		</dependency>
+		<dependency>
+		  <groupId>org.springframework.security</groupId>
+		  <artifactId>spring-security-config</artifactId>
+		  <version>5.1.1.RELEASE</version>
+		</dependency>
+		
         <!-- Marco para escribir objetos de coincidencia que 
         permite que las reglas de "coincidencia" se definan 
         de manera declarativa. -->

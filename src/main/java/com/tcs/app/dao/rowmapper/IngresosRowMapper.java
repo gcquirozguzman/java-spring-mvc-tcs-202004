@@ -15,12 +15,13 @@ public class IngresosRowMapper implements RowMapper<Ingresos> {
     	ingresos.setId(resultSet.getLong("ID"));
     	ingresos.setMonto(resultSet.getBigDecimal("MONTO"));
     	Empleado empleado = new Empleado();
-    	empleado.setId(resultSet.getLong("EMPLEADO.ID"));
-    	empleado.setNombre(resultSet.getString("EMPLEADO.NOMBRE"));
-    	empleado.setApellido(resultSet.getString("EMPLEADO.APELLIDO"));
-    	empleado.setEdad(resultSet.getLong("EMPLEADO.EDAD"));
-    	empleado.setSexo(resultSet.getString("EMPLEADO.SEXO"));
+    	empleado.setId(resultSet.getLong("IDEMPLEADO"));
+    	empleado.setNombre(resultSet.getString("NOMBRE"));
+    	empleado.setApellido(resultSet.getString("APELLIDO"));
+    	empleado.setEdad(resultSet.getLong("EDAD"));
+    	empleado.setSexo(resultSet.getString("SEXO"));
     	ingresos.setEmpleado(empleado);
+    	
         return ingresos;
     }
 }

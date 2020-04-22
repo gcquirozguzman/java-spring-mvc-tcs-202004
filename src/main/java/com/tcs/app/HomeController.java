@@ -24,6 +24,11 @@ public class HomeController {
 	 */
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
+		return "home-publico";
+	}
+	
+	@RequestMapping(value="home-privado", method = RequestMethod.GET)
+    public String privateHome(Locale locale, Model model) {
 		logger.info("Welcome home! The client locale is {}.", locale);
 		
 		Date date = new Date();
@@ -32,8 +37,20 @@ public class HomeController {
 		String formattedDate = dateFormat.format(date);
 		
 		model.addAttribute("serverTime", formattedDate );
+		return "home-privado";  
+    }
+	
+	@RequestMapping(value="accessDenied", method = RequestMethod.GET)
+    public String accessDenied(Locale locale, Model model) {
+		logger.info("Welcome home! The client locale is {}.", locale);
 		
-		return "home";
-	}
+		Date date = new Date();
+		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
+		
+		String formattedDate = dateFormat.format(date);
+		
+		model.addAttribute("serverTime", formattedDate );
+		return "acceso-denegado";  
+    }
 	
 }
