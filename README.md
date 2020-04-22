@@ -51,6 +51,7 @@ Para este proyecto desarrollaremos bajo las siguientes pautas.
 📢 Puede encontrar mas información referente a como agregar Spring Security en el siguiente enlace.
 ```
 
+  https://www.codejava.net/frameworks/spring/spring-web-mvc-security-basic-example-part-1-with-xml-configuration
   https://www.baeldung.com/spring-security-login
 
 ```
