@@ -53,4 +53,13 @@ public class HomeController {
 		return "acceso-denegado";  
     }
 	
+	@RequestMapping(value="login-personalizado", method = RequestMethod.GET)
+    public String loginPersonalizado(Locale locale, Model model) {
+		
+		return "login";  
+    }
+	
+	
+	
+	
 }

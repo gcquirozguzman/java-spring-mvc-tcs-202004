@@ -12,6 +12,9 @@
 		<intercept-url pattern="/ingresos/**" access="hasRole('ROLE_USER')"  />
 		<access-denied-handler error-page="/accessDenied"/>
 		<form-login default-target-url="/home-privado"/>
+		<!-- <form-login default-target-url="/home-privado"
+					login-page="/login-personalizado"/> -->
+		
 	</http>
 	
 	<authentication-manager>  
