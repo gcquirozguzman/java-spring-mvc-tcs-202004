@@ -37,7 +37,38 @@ Para este proyecto desarrollaremos bajo las siguientes pautas.
     😾 Prohibido usar mismos nombres de tablas.
     😾 Prohibido usar mismos nombres en RequestMapping ("rest/empleado", "empleados", "rest/ingresos", "ingresos").
     😾 Prohibido usar mismos nombres de usuario, password y roles para Spring Security.
-    😾 Prohibido usar mismos nombres de Controller, Dao, Model, RestController, Service y JSP.
+    😾 Prohibido usar mismos nombres en Controller, Dao, Model, RestController, Service y JSP como:
+        
+        📵 Nombre de Archivos Java
+        
+            EmpleadoController.java
+            IngresosController.java
+            EmpleadoDaoImpl.java
+            IngresosDaoImpl.java
+            EmpleadoRowMapper.java
+            IngresosRowMapper.java
+            EmpleadoDao.java
+            IngresosDao.java
+            Empleado.java
+            Ingresos.java
+            EmpleadoRestController.java
+            IngresosRestController.java
+            EmpleadoServiceImpl.java
+            IngresosServiceImpl.java
+            EmpleadoService.java
+            IngresosService.java
+
+        📵 Nombre de Carpeta que Contiene JSP
+
+            empleado
+            ingresos
+        
+        📵 Nombre de JSP
+        
+            acceso-denegado.jsp
+            home-privado.jsp
+            home-publico.jsp
+        
 ```
 
 #### 🖖 Material de Ayuda
