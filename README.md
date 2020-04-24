@@ -31,6 +31,11 @@ Para este proyecto desarrollaremos bajo las siguientes pautas.
 📢 Se debe preparar los servicios (RestController) de los módulos que se tenga.
 📢 Se debe preparar un set completo de pruebas del RestController que se eliga con JUnit y Mock. 
 📢 Crear una tarea programada con Quartz Scheduler para que cada 30 minutos se envie un correo a su bandeja indicando que el servidor esta funcionando.
+📢 Se puede usar el proyecto como base pero no se aceptará bajo ningun motivo lo siguiente:
+    😾 Prohibido usar mismos nombre de tablas.
+    😾 Prohibido usar mismo nombre de métodos (empleados e ingresos).
+    😾 Prohibido usar mismo nombre de métodos (empleados e ingresos).
+    😾 Prohibido usar mismos nombres de Controller, Dao, Model, RestController, Service y JSP.
 ```
 
 #### 🖖 Material de Ayuda
