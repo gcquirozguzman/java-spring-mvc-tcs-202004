@@ -34,7 +34,7 @@ Para este proyecto desarrollaremos bajo las siguientes pautas.
 📢 Se puede usar el proyecto como base pero no se aceptará bajo ningun motivo lo siguiente:
     😾 Prohibido usar mismo nombre de proyecto.
     😾 Prohibido usar mismos nombres de tablas.
-    😾 Prohibido usar mismos nombres de métodos (empleados e ingresos).
+    😾 Prohibido usar mismos nombres en RequestMapping ("rest/empleado", "empleados", "rest/ingresos", "ingresos").
     😾 Prohibido usar mismos nombres de usuario, password y roles para Spring Security.
     😾 Prohibido usar mismos nombres de Controller, Dao, Model, RestController, Service y JSP.
 ```
