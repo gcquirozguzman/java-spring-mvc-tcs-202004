@@ -32,6 +32,7 @@ Para este proyecto desarrollaremos bajo las siguientes pautas.
 📢 Se debe preparar un set completo de pruebas del RestController que se eliga con JUnit y Mock. 
 📢 Crear una tarea programada con Quartz Scheduler para que cada 30 minutos se envie un correo a su bandeja indicando que el servidor esta funcionando.
 📢 Se puede usar el proyecto como base pero no se aceptará bajo ningun motivo lo siguiente:
+    😾 Prohibido usar mismo nombre de proyecto.
     😾 Prohibido usar mismos nombres de tablas.
     😾 Prohibido usar mismos nombres de métodos (empleados e ingresos).
     😾 Prohibido usar mismos nombres de usuario, password y roles para Spring Security.
